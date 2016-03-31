@@ -1,0 +1,129 @@
+html, body {
+	margin: 0;
+	padding:0;
+	font-family: 'Marck Script', cursive;
+	font-size: 20px;
+}
+.main{
+	 box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	 width: 1024px;
+	 margin:0 auto;
+}
+header, footer{
+	background-image: url(img/bg-header.png);
+	padding: 20px;
+	margin: 0;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+table{
+	margin:10px;
+	border-spacing: 10px 5px;
+}
+h1{
+	font-size: 80px;
+	margin:0;
+	text-align: center;
+}
+tr>td:first-child{
+	font-weight: bold;
+}
+nav>ul{
+	margin:10px 15px 10px -10px;
+	font-size: 20px;
+}
+nav>ul>li>a{
+	text-decoration: none;
+	color:#2a283d;
+}
+td>a{
+	color:black;
+	text-decoration: none;
+}
+td>a:hover, nav>ul>li>a:hover{
+	color:blue;
+	text-decoration: underline;
+}
+
+nav>ul>li{
+	list-style-type: none;
+}
+nav{
+	position: fixed;
+	z-index: 2;
+	margin-left: 750px;
+	background-image: url(img/bg-header.png);
+	border-radius: 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	opacity: 0.6;
+	border: 3px solid #00a8e1;
+}
+nav:hover{
+	opacity: 0.99;
+}
+section{
+	width: 1024px;
+	background-image: url(img/bg-main.png);
+	margin: 0;
+	overflow: hidden;
+}
+section>img{
+	margin:40px 500px;
+	width: 200px;
+	border-radius: 10px;
+	position: absolute;
+	z-index: 3;
+	        -webkit-transition: all 1s;
+            -o-transition: all 1s;
+            -moz-transition: all 1s;
+            transition: all 1s;
+
+}
+section>img:hover{
+	width: 450px;
+	margin-left: 400px;
+	border: 3px solid #00a8e1;
+
+}
+div.part{
+	padding: 0 10px 8px;
+	max-width: 600px;
+	background-color: white;
+	margin: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+h2{
+
+	background-color: #0067a7;
+	padding: 10px;
+	color: white;
+	margin: 20px 0 0 0;
+}
+div#footer_left{
+	float: left;
+	margin: -20px 0 0 0;
+	font-size: 25px;
+}
+div#footer_right{
+	float:right;
+	margin:0;
+}
+div#footer_right>a>img{
+	height: 40px;
+	margin:0 5px;
+}
+div#footer_right>a>img:hover{
+	opacity: 0.5;
+}
+div#footer_left>p>a{
+	color:black;
+	text-decoration: none;
+}
+div#footer_left>p>a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+div.header, div.footer{
+	width: 1024px;
+	margin:0 auto;
+}
